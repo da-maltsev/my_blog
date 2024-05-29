@@ -12,5 +12,5 @@ RUN npm run build
 
 # Run the app
 # TODO
-EXPOSE 5173
-CMD ["npm", "run", "dev", "--host"]
+EXPOSE 80
+CMD sh -c "npm run serve -- --host"
