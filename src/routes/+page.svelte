@@ -4,4 +4,4 @@
 	export let data;
 </script>
 
-<DefaultPage header="Немного обо мне" readmeContent={data.props.readmeContent} />
+<DefaultPage header="Тут должны быть мысли" readmeContent={data.props.readmeContent} />
